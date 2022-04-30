@@ -15,7 +15,7 @@ class HomeController extends Controller
     {
         $this->request = $request;
         $this->report = $report;
-        $this->middleware('auth');
+        // $this->middleware('auth');
     }
 
     public function index()
