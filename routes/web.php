@@ -28,6 +28,6 @@ Route::put('/update/{report}', [HomeController::class, 'update'])->name('report.
 Route::delete('/destroy/{report}', [HomeController::class, 'destroy'])->name('report.destroy');
 
 
-Auth::routes([
-    'register' => false
-]);
+//Auth::routes([
+//    'register' => false
+//]);
